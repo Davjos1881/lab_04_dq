@@ -1,0 +1,124 @@
+{
+  "expectations": [
+    {
+      "id": "e5552906-e13f-4ff7-83bd-a2301370045d",
+      "kwargs": {
+        "column": "customer_id"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_not_be_null"
+    },
+    {
+      "id": "a886520a-7028-40cd-bb80-f005cc4606fd",
+      "kwargs": {
+        "column": "invoice_date"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_not_be_null"
+    },
+    {
+      "id": "08ceaa2d-46e0-4879-b882-be623f39279b",
+      "kwargs": {
+        "column": "invoice_id"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_be_unique"
+    },
+    {
+      "id": "91acb728-740a-4c44-864f-ae47be81c93e",
+      "kwargs": {
+        "column": "quantity",
+        "min_value": 1.0
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_be_between"
+    },
+    {
+      "id": "710dcbc1-6894-4651-8513-7304fc440367",
+      "kwargs": {
+        "column": "price",
+        "min_value": 0.01
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_be_between"
+    },
+    {
+      "id": "96b937d5-dc51-457a-bcc1-8b274f084c97",
+      "kwargs": {
+        "column": "product",
+        "value_set": [
+          "Headphones",
+          "Keyboard",
+          "Mouse",
+          "Phone",
+          "Laptop",
+          "Printer",
+          "Monitor",
+          "Tablet"
+        ]
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_be_in_set"
+    },
+    {
+      "id": "be29f93e-a262-4ec0-b218-5262972a7e03",
+      "kwargs": {
+        "column": "revenue_match",
+        "value_set": [
+          true
+        ]
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_be_in_set"
+    },
+    {
+      "id": "ceab3807-a8b0-479e-944d-08c55937abad",
+      "kwargs": {
+        "column": "country",
+        "value_set": [
+          "Colombia",
+          "Chile",
+          "Peru",
+          "Ecuador"
+        ]
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_be_in_set"
+    },
+    {
+      "id": "b5873c0e-bbab-4e4f-a140-fab18b4a7559",
+      "kwargs": {
+        "column": "invoice_date",
+        "regex": "^\\d{4}-\\d{2}-\\d{2}$"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_match_regex"
+    },
+    {
+      "id": "33acc770-be4d-4218-a2a5-3af50bd3cc74",
+      "kwargs": {
+        "column": "invoice_date",
+        "max_value": "2023-12-31",
+        "min_value": "2023-01-01"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_be_between"
+    }
+  ],
+  "id": "b1a6c839-0c45-4141-9e50-01518d054340",
+  "meta": {
+    "great_expectations_version": "1.15.1"
+  },
+  "name": "retail_etl_dataset_suite",
+  "notes": null
+}
