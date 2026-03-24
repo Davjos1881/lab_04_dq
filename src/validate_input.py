@@ -1,3 +1,4 @@
+from multiprocessing import context
 import great_expectations as gx
 import pandas as pd
 
@@ -9,7 +10,7 @@ def input_data_validation(df_raw, inp_validate):
 
     # Add a Pandas Data Source
     data_source_name = "retail_etl_dataset"
-    data_source = context.data_sources.add_pandas(name=data_source_name)
+    data_source = context.data_sources.add_or_update_pandas(name=data_source_name)
 
     # Add a Data Asset to the Data Source
     data_asset_name = "retail_etl_dataset_asset"
@@ -78,8 +79,7 @@ def input_data_validation(df_raw, inp_validate):
     )
 
     # Add the Expectation Suite to the Context
-    context.suites.add(suite)
-
+    context.suites.add_or_update(suite)
     # Validate
     validation_results = batch.validate(suite)
     print(validation_results)

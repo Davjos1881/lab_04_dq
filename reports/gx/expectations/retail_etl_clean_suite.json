@@ -1,7 +1,7 @@
 {
   "expectations": [
     {
-      "id": "33fd3b6c-04ed-4b92-bdbf-464c388d6524",
+      "id": "952fe46b-96ab-4922-be75-4c69663aedca",
       "kwargs": {
         "column": "customer_id"
       },
@@ -10,7 +10,7 @@
       "type": "expect_column_values_to_not_be_null"
     },
     {
-      "id": "7d87fb5f-0a13-4b34-b6ff-dda1e7b51458",
+      "id": "2f12f49e-6594-467a-988d-d670857da028",
       "kwargs": {
         "column": "invoice_date"
       },
@@ -19,7 +19,7 @@
       "type": "expect_column_values_to_not_be_null"
     },
     {
-      "id": "d77d34d8-9f9a-4943-b607-4abde434b60f",
+      "id": "0b31ecde-e110-4a45-b87c-4260b7532c34",
       "kwargs": {
         "column": "invoice_id"
       },
@@ -28,7 +28,7 @@
       "type": "expect_column_values_to_be_unique"
     },
     {
-      "id": "bf23cad1-c049-45b2-a399-7ac9e9941821",
+      "id": "e47db0a6-1acf-4d3a-a419-37a107f1e1e7",
       "kwargs": {
         "column": "quantity",
         "min_value": 1.0
@@ -38,7 +38,7 @@
       "type": "expect_column_values_to_be_between"
     },
     {
-      "id": "82282bee-cce3-466e-a2f1-cc825f121adf",
+      "id": "0cc69c79-56f9-4ac2-b966-160bfbdd0019",
       "kwargs": {
         "column": "price",
         "min_value": 0.01
@@ -48,7 +48,17 @@
       "type": "expect_column_values_to_be_between"
     },
     {
-      "id": "0e361ead-df55-44e0-a743-62b58baeb65e",
+      "id": "a91202a6-76c8-4c80-bc02-6a3e19af32be",
+      "kwargs": {
+        "column": "total_revenue",
+        "min_value": 0.01
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_be_between"
+    },
+    {
+      "id": "f6edc59f-06d9-45af-89e6-934b7e55a9f1",
       "kwargs": {
         "column": "product",
         "value_set": [
@@ -67,7 +77,7 @@
       "type": "expect_column_values_to_be_in_set"
     },
     {
-      "id": "a235adeb-6631-4725-8cc3-64a0df5443f3",
+      "id": "06e96c35-9e63-4088-8f39-d1c9563617cf",
       "kwargs": {
         "column": "revenue_match",
         "value_set": [
@@ -79,7 +89,7 @@
       "type": "expect_column_values_to_be_in_set"
     },
     {
-      "id": "19ee6a87-7785-40bc-be75-7a9e2e27d970",
+      "id": "9092fc78-4cdb-4d4d-a24e-815ecf0ea14c",
       "kwargs": {
         "column": "country",
         "value_set": [
@@ -94,31 +104,63 @@
       "type": "expect_column_values_to_be_in_set"
     },
     {
-      "id": "352e20c5-385b-4ea2-942a-e49d0f99f4b7",
+      "id": "161ba120-d775-445b-b8d2-ce328b12cdd2",
       "kwargs": {
         "column": "invoice_date",
-        "regex": "^\\d{4}-\\d{2}-\\d{2}$"
+        "regex": "^\\d{4}-\\d{2}-\\d{2}"
       },
       "meta": {},
       "severity": "critical",
       "type": "expect_column_values_to_match_regex"
     },
     {
-      "id": "85516e6e-b86d-4436-96e5-d83654513cc9",
+      "id": "4126568c-e74a-4587-9417-405ff90706be",
       "kwargs": {
-        "column": "invoice_date",
-        "max_value": "2023-12-31",
-        "min_value": "2023-01-01"
+        "column": "month",
+        "max_value": 12.0,
+        "min_value": 1.0
       },
       "meta": {},
       "severity": "critical",
       "type": "expect_column_values_to_be_between"
+    },
+    {
+      "id": "b9ad0f2b-28c3-47fc-8694-1cce33810c4d",
+      "kwargs": {
+        "column": "revenue_bin",
+        "value_set": [
+          "Low",
+          "Medium",
+          "High"
+        ]
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_be_in_set"
+    },
+    {
+      "id": "1c6550ea-d1d4-498b-808e-aa0099b962bf",
+      "kwargs": {
+        "column": "month"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_not_be_null"
+    },
+    {
+      "id": "e8da4943-50a7-4c96-9853-391bc11b4593",
+      "kwargs": {
+        "column": "day_of_week"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_not_be_null"
     }
   ],
-  "id": "b1a6c839-0c45-4141-9e50-01518d054340",
+  "id": "090fb163-9822-4b7c-8b5f-4bb6a04ce349",
   "meta": {
     "great_expectations_version": "1.15.1"
   },
-  "name": "retail_etl_dataset_suite",
+  "name": "retail_etl_clean_suite",
   "notes": null
 }

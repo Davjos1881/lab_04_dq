@@ -87,11 +87,23 @@ fluent_datasources:
     assets:
       retail_etl_dataset_asset:
         type: dataframe
-        id: a4a64c7b-2c15-4688-bf32-69a7da80bed8
+        id: d56c9607-f5f6-448c-90f3-ae29e99fefad
         batch_metadata: {}
         batch_definitions:
           retail_etl_dataset_batch:
-            id: d94d6f89-5c49-4554-b23d-b503468f5597
+            id: 643be04f-64cb-44cc-abe7-88a178e5113a
+            partitioner:
+  retail_etl_dataset_clean:
+    type: pandas
+    id: b75b0a5f-b2ac-43e0-a374-76c37ebe5ccb
+    assets:
+      retail_etl_dataset_clean_asset:
+        type: dataframe
+        id: 726aa1ad-003c-4cca-bb7a-868307fc1f05
+        batch_metadata: {}
+        batch_definitions:
+          retail_etl_dataset_clean_batch:
+            id: 716049bc-99e2-4bf6-8934-6f8df20d2f2d
             partitioner:
 analytics_enabled:
 data_context_id: 6e30599e-8d2a-4df0-9774-01fad3fcbf8e

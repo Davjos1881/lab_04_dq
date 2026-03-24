@@ -94,7 +94,7 @@ def data_profiling(df_raw):
     profile = ProfileReport(df_raw, title="Lab 04 data profiling report")
 
     # Or save the report to an HTML file
-    profile.to_file(r"C:\Users\btigr\Documents\UAO\5\ETL\ETL_2026_1\lab_04\lab_04_dq-main\lab_04_dq-main\reports\data_prof_report_lab04.html")
+    profile.to_file(r"C:\Users\santa\Desktop\ETL_cositas\lab_04\reports\data_prof_report_lab04.html")
 
 
     return df_raw
