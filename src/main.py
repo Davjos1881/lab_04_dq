@@ -11,7 +11,7 @@ from log import log_progress
 from extract import extract_raw_data, data_profiling
 from validate_input import input_data_validation
 
-base_path = Path(r"C:\Users\btigr\Documents\UAO\5\ETL\ETL_2026_1\lab_04\lab_04_dq-main\lab_04_dq-main")
+base_path = Path("C:/Users/santa/Desktop/ETL_cositas/lab_04")
 
 raw_file = base_path / "data" / "raw" / "retail_etl_dataset.csv"
 log_file = base_path / "logs" / "log_file.txt"
