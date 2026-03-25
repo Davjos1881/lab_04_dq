@@ -86,5 +86,4 @@ def input_data_validation(df_raw, inp_validate):
 
     # Generar Data Docs
     context.build_data_docs()
-    context.open_data_docs()
     
