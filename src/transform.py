@@ -3,12 +3,12 @@ import pandas as pd
 def transform_data(df_clean):
     df = df_clean.copy()
 
-    # 1. Standardize country names
+    # 1. Standardize country names to ISO 3166-1 alpha-2
     country_map = {
-        "colombia": "Colombia", "CO": "Colombia",
-        "ecuador": "Ecuador", "EC": "Ecuador",
-        "peru": "Peru", "PE": "Peru",
-        "chile": "Chile", "CL": "Chile"
+        "Colombia": "CO", "colombia": "CO", "CO": "CO",
+        "Ecuador": "EC", "ecuador": "EC", "EC": "EC",
+        "Peru": "PE", "peru": "PE", "PE": "PE",
+        "Chile": "CL", "chile": "CL", "CL": "CL"
     }
     df["country"] = df["country"].replace(country_map)
 

@@ -40,9 +40,9 @@ def output_data_validation(df_transformed, inp_validate):
         column="revenue_match", value_set=[True]
     ))
 
-    # Consistency — must pass now
+    # Consistency — must pass now with ISO 3166-1
     suite.add_expectation(gx.expectations.ExpectColumnValuesToBeInSet(
-        column="country", value_set=["Colombia", "Chile", "Peru", "Ecuador"]
+        column="country", value_set=["CO", "EC", "PE", "CL"]
     ))
 
     # Timeliness — must pass now
