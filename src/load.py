@@ -61,6 +61,10 @@ def load_to_dw(dataframes):
     except Exception:
         existing_keys_df = pd.DataFrame(columns=key_cols)
 
+    for col in key_cols:
+        fact_sales[col] = fact_sales[col].astype(str)
+        existing_keys_df[col] = existing_keys_df[col].astype(str)
+
     # Anti-join
     if not existing_keys_df.empty:
         merged = fact_sales.merge(

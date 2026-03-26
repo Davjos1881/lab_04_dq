@@ -19,7 +19,8 @@ CREATE TABLE dim_date (
   full_date DATE NOT NULL,
   year INT NOT NULL,
   month INT NOT NULL,
-  day INT NOT NULL
+  day INT NOT NULL,
+  day_name VARCHAR(20) NOT NULL
 ) ENGINE=InnoDB;
 
 -- ==============================

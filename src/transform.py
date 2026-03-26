@@ -17,6 +17,8 @@ def transform_data(df_clean):
     df["year"]         = df["invoice_date"].dt.year
     df["month"]        = df["invoice_date"].dt.month
     df["day"]          = df["invoice_date"].dt.day
+    df["day_of_week"]  = df["invoice_date"].dt.day_name()
+
 
     # 3. Cast customer_id to nullable integer
     df["customer_id"] = df["customer_id"].astype("Int64")

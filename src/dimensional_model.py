@@ -5,6 +5,8 @@ def create_dim_date(df):
 
     dim_date = df[["invoice_date"]].drop_duplicates().reset_index(drop=True)
 
+    dim_date = dim_date[dim_date["invoice_date"].notna()]
+
     dim_date["invoice_date"] = pd.to_datetime(dim_date["invoice_date"])
 
     dim_date["invoice_date_key"]  = dim_date.index + 1
@@ -13,8 +15,9 @@ def create_dim_date(df):
     dim_date["year"]      = dim_date["invoice_date"].dt.year
     dim_date["month"]     = dim_date["invoice_date"].dt.month
     dim_date["day"]       = dim_date["invoice_date"].dt.day
+    dim_date["day_name"]  = dim_date["invoice_date"].dt.day_name()
 
-    dim_date = dim_date[["invoice_date_key", "full_date", "year", "month", "day"]]
+    dim_date = dim_date[["invoice_date_key", "full_date", "year", "month", "day", "day_name"]]
 
     return dim_date
 
