@@ -14,7 +14,7 @@ from cleaning import clean_data
 from transform import transform_data
 from validate_output import output_data_validation
 from dimensional_model import transform_data_DM
-from load import save_dimensions_to_csv
+from load import load_to_dw
 
 base_path = Path(r"C:\Users\btigr\Documents\UAO\5\ETL\ETL_2026_1\lab_04\lab_04_dq-main\lab_04_dq-main")
 
@@ -29,6 +29,7 @@ dims_test = base_path / "data" / "dims_test"
 def main():
 
     log_progress("Starting ETL process", log_file)
+
 
     log_progress("Extract phase started", log_file)
     df_raw = extract_raw_data(raw_file)
@@ -56,15 +57,17 @@ def main():
     log_progress("Create dimensional model", log_file)
     df_dimensional_model = transform_data_DM(df_transformed)
 
-    # Guardar cada tabla
+    # Save to csv to check first
     for nombre, tabla in df_dimensional_model.items():
         tabla.to_csv(dims_test / f"{nombre}.csv", index=False)
-
     log_progress("Saved dimensional model", log_file)
 
+    log_progress("Load process started", log_file)
+    load_to_dw(df_dimensional_model)
+    log_progress('Load phase complete', log_file)
 
 
-
+    log_progress('ETL process finished successfully', log_file)
 
 if __name__ == "__main__":
     main()
