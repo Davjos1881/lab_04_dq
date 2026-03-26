@@ -153,6 +153,7 @@
 2026-03-25 16:25:44,Transformed data saved
 2026-03-25 16:25:44,Output validation
 2026-03-25 16:25:46,Output validation done
+<<<<<<< HEAD
 2026-03-25 17:17:57,Starting ETL process
 2026-03-25 17:17:57,Extract phase started
 2026-03-25 17:17:57,Data profiling
@@ -213,3 +214,166 @@
 2026-03-26 16:24:39,Transformed data saved
 2026-03-26 16:24:39,Output validation
 2026-03-26 16:24:41,Output validation done
+=======
+2026-03-25 17:02:51,Starting ETL process
+2026-03-25 17:02:51,Extract phase started
+2026-03-25 17:02:51,Data profiling
+2026-03-25 17:05:47,Starting ETL process
+2026-03-25 17:05:47,Extract phase started
+2026-03-25 17:05:47,Data profiling
+2026-03-25 17:05:53,Input validation data
+2026-03-25 17:05:54,Cleaning data
+2026-03-25 17:05:54,Clean data saved
+2026-03-25 17:05:54,Transforming data
+2026-03-25 17:05:54,Transformed data saved
+2026-03-25 17:05:54,Output validation
+2026-03-25 17:05:55,Output validation done
+2026-03-25 17:05:55,Create dimensionsal model
+2026-03-25 17:59:54,Starting ETL process
+2026-03-25 17:59:54,Extract phase started
+2026-03-25 17:59:54,Data profiling
+2026-03-25 18:00:01,Input validation data
+2026-03-25 18:00:02,Cleaning data
+2026-03-25 18:00:02,Clean data saved
+2026-03-25 18:00:02,Transforming data
+2026-03-25 18:06:51,Starting ETL process
+2026-03-25 18:06:51,Extract phase started
+2026-03-25 18:06:51,Data profiling
+2026-03-25 18:06:58,Input validation data
+2026-03-25 18:06:59,Cleaning data
+2026-03-25 18:06:59,Clean data saved
+2026-03-25 18:06:59,Transforming data
+2026-03-25 18:06:59,Transformed data saved
+2026-03-25 18:06:59,Output validation
+2026-03-25 18:06:59,Output validation done
+2026-03-25 18:06:59,Create dimensional model
+2026-03-25 18:41:57,Starting ETL process
+2026-03-25 18:41:57,Extract phase started
+2026-03-25 18:41:57,Data profiling
+2026-03-25 18:42:04,Input validation data
+2026-03-25 18:42:05,Cleaning data
+2026-03-25 18:42:05,Clean data saved
+2026-03-25 18:42:05,Transforming data
+2026-03-25 18:42:05,Transformed data saved
+2026-03-25 18:42:05,Output validation
+2026-03-25 18:42:05,Output validation done
+2026-03-25 18:42:05,Create dimensional model
+2026-03-25 18:43:57,Starting ETL process
+2026-03-25 18:43:57,Extract phase started
+2026-03-25 18:43:57,Data profiling
+2026-03-25 18:44:04,Input validation data
+2026-03-25 18:44:04,Cleaning data
+2026-03-25 18:44:04,Clean data saved
+2026-03-25 18:44:04,Transforming data
+2026-03-25 18:44:04,Transformed data saved
+2026-03-25 18:44:04,Output validation
+2026-03-25 18:44:05,Output validation done
+2026-03-25 18:44:05,Create dimensional model
+2026-03-25 18:44:05,Saved dimensional model
+2026-03-25 23:17:14,Starting ETL process
+2026-03-25 23:17:14,Extract phase started
+2026-03-25 23:17:14,Data profiling
+2026-03-25 23:17:21,Input validation data
+2026-03-25 23:17:22,Cleaning data
+2026-03-25 23:17:22,Clean data saved
+2026-03-25 23:17:22,Transforming data
+2026-03-25 23:17:22,Transformed data saved
+2026-03-25 23:17:22,Output validation
+2026-03-25 23:17:23,Output validation done
+2026-03-25 23:17:23,Create dimensional model
+2026-03-25 23:17:23,Saved dimensional model
+2026-03-25 23:17:23,Load process started
+2026-03-25 23:18:39,Starting ETL process
+2026-03-25 23:18:39,Extract phase started
+2026-03-25 23:18:39,Data profiling
+2026-03-25 23:18:46,Input validation data
+2026-03-25 23:18:47,Cleaning data
+2026-03-25 23:18:47,Clean data saved
+2026-03-25 23:18:47,Transforming data
+2026-03-25 23:18:47,Transformed data saved
+2026-03-25 23:18:47,Output validation
+2026-03-25 23:18:47,Output validation done
+2026-03-25 23:18:47,Create dimensional model
+2026-03-25 23:18:47,Saved dimensional model
+2026-03-25 23:18:47,Load process started
+2026-03-25 23:18:48,Load phase complete
+2026-03-25 23:18:48,ETL process finished successfully
+2026-03-26 00:16:27,Starting ETL process
+2026-03-26 00:16:27,Extract phase started
+2026-03-26 00:16:27,Data profiling
+2026-03-26 00:16:34,Input validation data
+2026-03-26 00:16:35,Cleaning data
+2026-03-26 00:16:35,Clean data saved
+2026-03-26 00:16:35,Transforming data
+2026-03-26 00:16:35,Transformed data saved
+2026-03-26 00:16:35,Output validation
+2026-03-26 00:16:35,Output validation done
+2026-03-26 00:16:35,Create dimensional model
+2026-03-26 00:19:04,Starting ETL process
+2026-03-26 00:19:04,Extract phase started
+2026-03-26 00:19:04,Data profiling
+2026-03-26 00:19:13,Input validation data
+2026-03-26 00:19:13,Cleaning data
+2026-03-26 00:19:13,Clean data saved
+2026-03-26 00:19:13,Transforming data
+2026-03-26 00:19:13,Transformed data saved
+2026-03-26 00:19:13,Output validation
+2026-03-26 00:19:14,Output validation done
+2026-03-26 00:19:14,Create dimensional model
+2026-03-26 00:19:14,Saved dimensional model
+2026-03-26 00:19:14,Load process started
+2026-03-26 00:20:57,Starting ETL process
+2026-03-26 00:20:57,Extract phase started
+2026-03-26 00:20:57,Data profiling
+2026-03-26 00:21:04,Input validation data
+2026-03-26 00:21:04,Cleaning data
+2026-03-26 00:21:04,Clean data saved
+2026-03-26 00:21:04,Transforming data
+2026-03-26 00:21:04,Transformed data saved
+2026-03-26 00:21:04,Output validation
+2026-03-26 00:21:05,Output validation done
+2026-03-26 00:21:05,Create dimensional model
+2026-03-26 00:21:05,Saved dimensional model
+2026-03-26 00:21:05,Load process started
+2026-03-26 00:21:05,Load phase complete
+2026-03-26 00:21:05,ETL process finished successfully
+2026-03-26 00:27:25,Starting ETL process
+2026-03-26 00:27:25,Extract phase started
+2026-03-26 00:27:25,Data profiling
+2026-03-26 00:27:32,Input validation data
+2026-03-26 00:27:33,Cleaning data
+2026-03-26 00:27:33,Clean data saved
+2026-03-26 00:27:33,Transforming data
+2026-03-26 00:27:33,Transformed data saved
+2026-03-26 00:27:33,Output validation
+2026-03-26 00:27:33,Output validation done
+2026-03-26 00:27:33,Create dimensional model
+2026-03-26 00:29:11,Starting ETL process
+2026-03-26 00:29:11,Extract phase started
+2026-03-26 00:29:11,Data profiling
+2026-03-26 00:29:18,Input validation data
+2026-03-26 00:29:18,Cleaning data
+2026-03-26 00:29:18,Clean data saved
+2026-03-26 00:29:18,Transforming data
+2026-03-26 00:29:18,Transformed data saved
+2026-03-26 00:29:18,Output validation
+2026-03-26 00:29:19,Output validation done
+2026-03-26 00:29:19,Create dimensional model
+2026-03-26 00:29:19,Saved dimensional model
+2026-03-26 00:29:19,Load process started
+2026-03-26 00:40:09,Starting ETL process
+2026-03-26 00:40:09,Extract phase started
+2026-03-26 00:40:09,Data profiling
+2026-03-26 00:40:16,Input validation data
+2026-03-26 00:40:16,Cleaning data
+2026-03-26 00:40:16,Clean data saved
+2026-03-26 00:40:16,Transforming data
+2026-03-26 00:40:16,Transformed data saved
+2026-03-26 00:40:16,Output validation
+2026-03-26 00:40:17,Output validation done
+2026-03-26 00:40:17,Create dimensional model
+2026-03-26 00:40:17,Saved dimensional model
+2026-03-26 00:40:17,Load process started
+2026-03-26 00:40:18,Load phase complete
+2026-03-26 00:40:18,ETL process finished successfully
+>>>>>>> 1b914b2be9390910a92a1b9d5f43fc7daaa2a520
