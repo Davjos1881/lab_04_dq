@@ -153,6 +153,68 @@
 2026-03-25 16:25:44,Transformed data saved
 2026-03-25 16:25:44,Output validation
 2026-03-25 16:25:46,Output validation done
+<<<<<<< HEAD
+2026-03-25 17:17:57,Starting ETL process
+2026-03-25 17:17:57,Extract phase started
+2026-03-25 17:17:57,Data profiling
+2026-03-25 17:18:05,Input validation data
+2026-03-25 17:18:06,Cleaning data
+2026-03-25 17:18:06,Clean data saved
+2026-03-25 17:18:06,Transforming data
+2026-03-25 17:18:06,Transformed data saved
+2026-03-25 17:18:06,Output validation
+2026-03-25 17:18:08,Output validation done
+2026-03-25 17:19:08,Starting ETL process
+2026-03-25 17:19:08,Extract phase started
+2026-03-25 17:19:08,Data profiling
+2026-03-25 17:19:14,Input validation data
+2026-03-25 17:19:15,Cleaning data
+2026-03-25 17:19:15,Clean data saved
+2026-03-25 17:19:15,Transforming data
+2026-03-25 17:19:16,Transformed data saved
+2026-03-25 17:19:16,Output validation
+2026-03-25 17:19:17,Output validation done
+2026-03-26 15:37:45,Starting ETL process
+2026-03-26 15:37:45,Extract phase started
+2026-03-26 15:37:45,Data profiling
+2026-03-26 15:37:56,Input validation data
+2026-03-26 15:38:04,Cleaning data
+2026-03-26 15:38:04,Clean data saved
+2026-03-26 15:38:04,Transforming data
+2026-03-26 15:38:04,Transformed data saved
+2026-03-26 15:38:04,Output validation
+2026-03-26 15:38:06,Output validation done
+2026-03-26 15:40:16,Starting ETL process
+2026-03-26 15:40:16,Extract phase started
+2026-03-26 15:40:16,Data profiling
+2026-03-26 15:40:22,Input validation data
+2026-03-26 15:40:24,Cleaning data
+2026-03-26 15:40:24,Clean data saved
+2026-03-26 15:40:24,Transforming data
+2026-03-26 15:40:24,Transformed data saved
+2026-03-26 15:40:24,Output validation
+2026-03-26 15:40:26,Output validation done
+2026-03-26 16:16:46,Starting ETL process
+2026-03-26 16:16:46,Extract phase started
+2026-03-26 16:16:46,Data profiling
+2026-03-26 16:16:54,Input validation data
+2026-03-26 16:16:56,Cleaning data
+2026-03-26 16:16:56,Clean data saved
+2026-03-26 16:16:56,Transforming data
+2026-03-26 16:16:56,Transformed data saved
+2026-03-26 16:16:56,Output validation
+2026-03-26 16:16:58,Output validation done
+2026-03-26 16:24:30,Starting ETL process
+2026-03-26 16:24:30,Extract phase started
+2026-03-26 16:24:30,Data profiling
+2026-03-26 16:24:37,Input validation data
+2026-03-26 16:24:38,Cleaning data
+2026-03-26 16:24:38,Clean data saved
+2026-03-26 16:24:38,Transforming data
+2026-03-26 16:24:39,Transformed data saved
+2026-03-26 16:24:39,Output validation
+2026-03-26 16:24:41,Output validation done
+=======
 2026-03-25 17:02:51,Starting ETL process
 2026-03-25 17:02:51,Extract phase started
 2026-03-25 17:02:51,Data profiling
@@ -314,6 +376,7 @@
 2026-03-26 00:40:17,Load process started
 2026-03-26 00:40:18,Load phase complete
 2026-03-26 00:40:18,ETL process finished successfully
+<<<<<<< HEAD
 2026-03-26 09:05:22,Starting ETL process
 2026-03-26 09:05:22,Extract phase started
 2026-03-26 09:05:22,Data profiling
@@ -329,3 +392,6 @@
 2026-03-26 09:05:32,Load process started
 2026-03-26 09:05:32,Load phase complete
 2026-03-26 09:05:40,ETL process finished successfully
+=======
+>>>>>>> 1b914b2be9390910a92a1b9d5f43fc7daaa2a520
+>>>>>>> d5c96ace1abe7251e963f0042b9f36045a870f13

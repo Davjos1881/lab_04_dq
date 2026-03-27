@@ -1,7 +1,15 @@
 {
   "expectations": [
     {
+<<<<<<< HEAD
       "id": "3979129e-4135-4e7d-9ec4-5d84a59cbc4d",
+=======
+<<<<<<< HEAD
+      "id": "9ae3bc09-80f7-4fc5-aec0-567f7707342b",
+=======
+      "id": "3823ab2c-990d-4274-933d-04bcb9d49b2c",
+>>>>>>> 1b914b2be9390910a92a1b9d5f43fc7daaa2a520
+>>>>>>> d5c96ace1abe7251e963f0042b9f36045a870f13
       "kwargs": {
         "column": "customer_id"
       },
@@ -10,7 +18,15 @@
       "type": "expect_column_values_to_not_be_null"
     },
     {
+<<<<<<< HEAD
       "id": "b673e153-d128-481f-bc94-1e463ff8d456",
+=======
+<<<<<<< HEAD
+      "id": "ced0ecf0-dfd7-4efb-bef0-5fcf06b6dab2",
+=======
+      "id": "337d313d-08b8-4b43-9313-eb673f16cf17",
+>>>>>>> 1b914b2be9390910a92a1b9d5f43fc7daaa2a520
+>>>>>>> d5c96ace1abe7251e963f0042b9f36045a870f13
       "kwargs": {
         "column": "invoice_date"
       },
@@ -19,7 +35,15 @@
       "type": "expect_column_values_to_not_be_null"
     },
     {
+<<<<<<< HEAD
       "id": "f13d9cee-acbc-4ffc-8be5-b486f7012be8",
+=======
+<<<<<<< HEAD
+      "id": "2f982317-9219-4e5d-9988-25b6df175a79",
+=======
+      "id": "8f96d541-e216-4c4c-a59f-4ef244f73be8",
+>>>>>>> 1b914b2be9390910a92a1b9d5f43fc7daaa2a520
+>>>>>>> d5c96ace1abe7251e963f0042b9f36045a870f13
       "kwargs": {
         "column": "invoice_id"
       },
@@ -28,7 +52,15 @@
       "type": "expect_column_values_to_be_unique"
     },
     {
+<<<<<<< HEAD
       "id": "0852fbca-4113-4e6a-a3ca-736c2fb30ec5",
+=======
+<<<<<<< HEAD
+      "id": "55defa8d-815e-46dc-8b41-8540d1972d43",
+=======
+      "id": "a3243d12-4bbd-4ec8-9420-2100509f0e7d",
+>>>>>>> 1b914b2be9390910a92a1b9d5f43fc7daaa2a520
+>>>>>>> d5c96ace1abe7251e963f0042b9f36045a870f13
       "kwargs": {
         "column": "quantity",
         "min_value": 1.0
@@ -38,7 +70,15 @@
       "type": "expect_column_values_to_be_between"
     },
     {
+<<<<<<< HEAD
       "id": "55f90bd6-e881-43fb-a073-16055773a502",
+=======
+<<<<<<< HEAD
+      "id": "b6a14b04-4ee7-425a-b959-ded389796936",
+=======
+      "id": "ba69991c-3ee8-40af-b406-814041d37afe",
+>>>>>>> 1b914b2be9390910a92a1b9d5f43fc7daaa2a520
+>>>>>>> d5c96ace1abe7251e963f0042b9f36045a870f13
       "kwargs": {
         "column": "price",
         "min_value": 0.01
@@ -48,7 +88,15 @@
       "type": "expect_column_values_to_be_between"
     },
     {
+<<<<<<< HEAD
       "id": "4a24448a-74bf-4a5f-bcc3-aca5201506a6",
+=======
+<<<<<<< HEAD
+      "id": "dd7bbc13-e218-49f8-8b4a-1d0a80182f0c",
+=======
+      "id": "70dcdf83-7e67-4059-b9e6-aa6ad158d707",
+>>>>>>> 1b914b2be9390910a92a1b9d5f43fc7daaa2a520
+>>>>>>> d5c96ace1abe7251e963f0042b9f36045a870f13
       "kwargs": {
         "column": "product",
         "value_set": [
@@ -67,7 +115,15 @@
       "type": "expect_column_values_to_be_in_set"
     },
     {
+<<<<<<< HEAD
       "id": "9c3d9243-d548-41c2-a523-5e828ed83a79",
+=======
+<<<<<<< HEAD
+      "id": "9e0fc662-e509-438f-83d0-0a9b6cae24ac",
+=======
+      "id": "9202cb64-1739-4690-bdc2-dfa515da5e98",
+>>>>>>> 1b914b2be9390910a92a1b9d5f43fc7daaa2a520
+>>>>>>> d5c96ace1abe7251e963f0042b9f36045a870f13
       "kwargs": {
         "column": "revenue_match",
         "value_set": [
@@ -79,7 +135,15 @@
       "type": "expect_column_values_to_be_in_set"
     },
     {
+<<<<<<< HEAD
       "id": "d8412512-09ca-456f-b03c-a02a26fd111e",
+=======
+<<<<<<< HEAD
+      "id": "2145c107-685a-40fe-88db-202d1e45897d",
+=======
+      "id": "fb289145-1cf9-4fd2-a779-0458ce4c08a6",
+>>>>>>> 1b914b2be9390910a92a1b9d5f43fc7daaa2a520
+>>>>>>> d5c96ace1abe7251e963f0042b9f36045a870f13
       "kwargs": {
         "column": "country",
         "value_set": [
@@ -94,7 +158,15 @@
       "type": "expect_column_values_to_be_in_set"
     },
     {
+<<<<<<< HEAD
       "id": "8dafb161-8b0f-4d8e-9b3e-4791f5c2a84a",
+=======
+<<<<<<< HEAD
+      "id": "e8608e1e-ef1d-4d8e-af2d-115946706c9c",
+=======
+      "id": "a548aaf9-b5b5-4346-986b-e03952d1500b",
+>>>>>>> 1b914b2be9390910a92a1b9d5f43fc7daaa2a520
+>>>>>>> d5c96ace1abe7251e963f0042b9f36045a870f13
       "kwargs": {
         "column": "invoice_date",
         "regex": "^\\d{4}-\\d{2}-\\d{2}$"
@@ -104,7 +176,15 @@
       "type": "expect_column_values_to_match_regex"
     },
     {
+<<<<<<< HEAD
       "id": "5ebad58a-feb3-47d0-bbe8-a1648c538a58",
+=======
+<<<<<<< HEAD
+      "id": "8d5152ff-8dc8-4f04-80a0-0ec57a3b07ba",
+=======
+      "id": "6be58e65-cec7-472b-963c-558159a4b61f",
+>>>>>>> 1b914b2be9390910a92a1b9d5f43fc7daaa2a520
+>>>>>>> d5c96ace1abe7251e963f0042b9f36045a870f13
       "kwargs": {
         "column": "invoice_date",
         "max_value": "2023-12-31",

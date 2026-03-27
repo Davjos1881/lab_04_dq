@@ -1,7 +1,15 @@
 {
   "expectations": [
     {
+<<<<<<< HEAD
       "id": "cfc65b30-d173-47e9-9647-77f681a20169",
+=======
+<<<<<<< HEAD
+      "id": "23ad31ba-d554-4660-83f8-3d9731681653",
+=======
+      "id": "46c943dd-3682-47d2-b286-a7185a20858a",
+>>>>>>> 1b914b2be9390910a92a1b9d5f43fc7daaa2a520
+>>>>>>> d5c96ace1abe7251e963f0042b9f36045a870f13
       "kwargs": {
         "column": "customer_id"
       },
@@ -10,7 +18,15 @@
       "type": "expect_column_values_to_not_be_null"
     },
     {
+<<<<<<< HEAD
       "id": "9abd95cb-ceb8-4308-ab56-3425f0742403",
+=======
+<<<<<<< HEAD
+      "id": "a7bcdc40-8765-43f5-832d-11968f66468e",
+=======
+      "id": "816fa02d-8ba3-4a75-bfad-f4c791f47797",
+>>>>>>> 1b914b2be9390910a92a1b9d5f43fc7daaa2a520
+>>>>>>> d5c96ace1abe7251e963f0042b9f36045a870f13
       "kwargs": {
         "column": "invoice_date"
       },
@@ -19,7 +35,15 @@
       "type": "expect_column_values_to_not_be_null"
     },
     {
+<<<<<<< HEAD
       "id": "51254916-1417-4313-be17-8e2be6d98187",
+=======
+<<<<<<< HEAD
+      "id": "fdb4f59c-0bb8-4ec2-965b-c01c4989173d",
+=======
+      "id": "57759b0c-2b00-418b-8e69-fac31606c793",
+>>>>>>> 1b914b2be9390910a92a1b9d5f43fc7daaa2a520
+>>>>>>> d5c96ace1abe7251e963f0042b9f36045a870f13
       "kwargs": {
         "column": "invoice_id"
       },
@@ -28,7 +52,15 @@
       "type": "expect_column_values_to_be_unique"
     },
     {
+<<<<<<< HEAD
       "id": "20c0ca83-bb98-4dbc-b371-818b7b7e3886",
+=======
+<<<<<<< HEAD
+      "id": "62fbb688-9841-4f98-9b45-adf1142ad167",
+=======
+      "id": "a00847a3-5821-4964-9a46-c7b75e921173",
+>>>>>>> 1b914b2be9390910a92a1b9d5f43fc7daaa2a520
+>>>>>>> d5c96ace1abe7251e963f0042b9f36045a870f13
       "kwargs": {
         "column": "quantity",
         "min_value": 1.0
@@ -38,7 +70,15 @@
       "type": "expect_column_values_to_be_between"
     },
     {
+<<<<<<< HEAD
       "id": "ecd0a764-077f-41bc-95d7-1c4e45c2554b",
+=======
+<<<<<<< HEAD
+      "id": "edb35824-2a67-499b-adef-522442ca38a9",
+=======
+      "id": "323039ae-25e8-42e4-8a59-7225727383f8",
+>>>>>>> 1b914b2be9390910a92a1b9d5f43fc7daaa2a520
+>>>>>>> d5c96ace1abe7251e963f0042b9f36045a870f13
       "kwargs": {
         "column": "price",
         "min_value": 0.01
@@ -48,7 +88,15 @@
       "type": "expect_column_values_to_be_between"
     },
     {
+<<<<<<< HEAD
       "id": "57637a15-1b8f-4520-b2be-3da673c36363",
+=======
+<<<<<<< HEAD
+      "id": "ed696dd6-73dc-405f-9d0a-963de480c0dd",
+=======
+      "id": "9a4343e6-4fd1-4527-9a0d-df29664b9bfa",
+>>>>>>> 1b914b2be9390910a92a1b9d5f43fc7daaa2a520
+>>>>>>> d5c96ace1abe7251e963f0042b9f36045a870f13
       "kwargs": {
         "column": "total_revenue",
         "min_value": 0.01
@@ -58,7 +106,15 @@
       "type": "expect_column_values_to_be_between"
     },
     {
+<<<<<<< HEAD
       "id": "5707ba6c-7bda-4db2-9dbf-c0172f8c991d",
+=======
+<<<<<<< HEAD
+      "id": "ff3be91f-8e41-45cb-aed8-ca1fc7b1a681",
+=======
+      "id": "87a313aa-9fda-49c3-9a77-f935fc5cf932",
+>>>>>>> 1b914b2be9390910a92a1b9d5f43fc7daaa2a520
+>>>>>>> d5c96ace1abe7251e963f0042b9f36045a870f13
       "kwargs": {
         "column": "product",
         "value_set": [
@@ -77,7 +133,15 @@
       "type": "expect_column_values_to_be_in_set"
     },
     {
+<<<<<<< HEAD
       "id": "ec891e15-f71f-4d3e-98be-2d447addbc76",
+=======
+<<<<<<< HEAD
+      "id": "86a5571b-915a-4190-a9ed-36ff6aced00c",
+=======
+      "id": "50169cad-3561-42d2-9c74-307613a025c0",
+>>>>>>> 1b914b2be9390910a92a1b9d5f43fc7daaa2a520
+>>>>>>> d5c96ace1abe7251e963f0042b9f36045a870f13
       "kwargs": {
         "column": "revenue_match",
         "value_set": [
@@ -89,7 +153,15 @@
       "type": "expect_column_values_to_be_in_set"
     },
     {
+<<<<<<< HEAD
       "id": "0a333b19-37de-4c4d-9034-9df9340cf412",
+=======
+<<<<<<< HEAD
+      "id": "283d321a-5124-4f0f-8176-9a1995ea363e",
+=======
+      "id": "e1819be1-9be0-4a98-9759-2d87d100b0bc",
+>>>>>>> 1b914b2be9390910a92a1b9d5f43fc7daaa2a520
+>>>>>>> d5c96ace1abe7251e963f0042b9f36045a870f13
       "kwargs": {
         "column": "country",
         "value_set": [
@@ -104,17 +176,44 @@
       "type": "expect_column_values_to_be_in_set"
     },
     {
+<<<<<<< HEAD
       "id": "df0201a5-8336-4959-8c8d-5eb8d0a812f6",
+=======
+<<<<<<< HEAD
+      "id": "edd6751f-1a90-4a12-983a-5f395fdf25ed",
+=======
+      "id": "dc155340-6d7c-4ec7-a2ab-ddc2cd22f088",
+>>>>>>> 1b914b2be9390910a92a1b9d5f43fc7daaa2a520
+>>>>>>> d5c96ace1abe7251e963f0042b9f36045a870f13
       "kwargs": {
         "column": "invoice_date",
-        "regex": "^\\d{4}-\\d{2}-\\d{2}"
+        "type_": "datetime64[ns]"
       },
       "meta": {},
       "severity": "critical",
-      "type": "expect_column_values_to_match_regex"
+      "type": "expect_column_values_to_be_of_type"
     },
     {
+<<<<<<< HEAD
       "id": "a416aea7-2bd1-419f-b0d1-00e573d711de",
+=======
+<<<<<<< HEAD
+      "id": "122ff058-6e2a-45d3-9165-a76d781ee49f",
+      "kwargs": {
+        "column": "invoice_date",
+        "max_value": "2023-12-31T00:00:00",
+        "min_value": "2023-01-01T00:00:00"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_be_between"
+    },
+    {
+      "id": "0c6d0a34-e22b-49b5-9f2f-4adc60859693",
+=======
+      "id": "1489826f-836a-4cfe-aef0-c7212c2ec14e",
+>>>>>>> 1b914b2be9390910a92a1b9d5f43fc7daaa2a520
+>>>>>>> d5c96ace1abe7251e963f0042b9f36045a870f13
       "kwargs": {
         "column": "month",
         "max_value": 12.0,
@@ -125,7 +224,15 @@
       "type": "expect_column_values_to_be_between"
     },
     {
+<<<<<<< HEAD
       "id": "4f05cfdb-5600-4b3b-9dae-cc39e1e00fa4",
+=======
+<<<<<<< HEAD
+      "id": "4478a2bf-4a18-457a-a5b3-3b84cb243e2a",
+=======
+      "id": "adfd051f-eee6-486a-b812-6a87cf4f29a6",
+>>>>>>> 1b914b2be9390910a92a1b9d5f43fc7daaa2a520
+>>>>>>> d5c96ace1abe7251e963f0042b9f36045a870f13
       "kwargs": {
         "column": "revenue_bin",
         "value_set": [
@@ -139,7 +246,15 @@
       "type": "expect_column_values_to_be_in_set"
     },
     {
+<<<<<<< HEAD
       "id": "c4556fea-eef6-4613-a462-cc94b5bcb731",
+=======
+<<<<<<< HEAD
+      "id": "22232b2d-9f85-4947-89c8-3d561da63b6d",
+=======
+      "id": "755e703f-f67a-4f8d-8242-905e97c6c55d",
+>>>>>>> 1b914b2be9390910a92a1b9d5f43fc7daaa2a520
+>>>>>>> d5c96ace1abe7251e963f0042b9f36045a870f13
       "kwargs": {
         "column": "month"
       },
@@ -148,7 +263,15 @@
       "type": "expect_column_values_to_not_be_null"
     },
     {
+<<<<<<< HEAD
       "id": "5ceb2fa6-9d14-4371-886e-78cb5a56466a",
+=======
+<<<<<<< HEAD
+      "id": "8755215b-b1eb-4dea-9d24-6e7406f7e021",
+=======
+      "id": "a32024cc-0873-483e-859b-be31d467f713",
+>>>>>>> 1b914b2be9390910a92a1b9d5f43fc7daaa2a520
+>>>>>>> d5c96ace1abe7251e963f0042b9f36045a870f13
       "kwargs": {
         "column": "day_of_week"
       },

@@ -45,9 +45,16 @@ def output_data_validation(df_transformed, inp_validate):
         column="country", value_set=["CO", "EC", "PE", "CL"]
     ))
 
-    # Timeliness — must pass now
-    suite.add_expectation(gx.expectations.ExpectColumnValuesToMatchRegex(
-        column="invoice_date", regex=r"^\d{4}-\d{2}-\d{2}"
+    # Timeliness — invoice_date must be parsed as datetime with no nulls
+    suite.add_expectation(gx.expectations.ExpectColumnValuesToBeOfType(
+        column="invoice_date", type_="datetime64[ns]"
+    ))
+
+        # Timeliness — invoice_date must be within 2023
+    suite.add_expectation(gx.expectations.ExpectColumnValuesToBeBetween(
+        column="invoice_date",
+        min_value=pd.Timestamp("2023-01-01"),
+        max_value=pd.Timestamp("2023-12-31")
     ))
 
     # New transformation columns
