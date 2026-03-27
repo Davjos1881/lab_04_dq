@@ -65,7 +65,7 @@ def main():
     log_progress("Load process started", log_file)
     load_to_dw(df_dimensional_model)
     log_progress('Load phase complete', log_file)
-
+    
 
     log_progress('ETL process finished successfully', log_file)
 
