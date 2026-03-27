@@ -786,4 +786,5 @@ Refresh the data connection
 
 Example of how the dashboard should look:
 
-<img width="1310" height="737" alt="image" src="https://github.com/user-attachments/assets/339b56c3-a37c-4e44-99eb-3aff2d329f23" />
+<img width="1285" height="721" alt="image" src="https://github.com/user-attachments/assets/9c311bc5-2e6f-4778-8b81-fe8076516a32" />
+
